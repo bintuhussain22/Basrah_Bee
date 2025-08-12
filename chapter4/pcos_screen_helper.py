@@ -72,3 +72,23 @@ def pcos_screen(
             "Educational only — not a diagnosis. See a clinician for proper evaluation."
         )
     }
+# ---------- Quick demo (you can replace with your own values) ----------
+
+def demo():
+    result = pcos_screen(
+        avg_cycle_len_days=35.5,
+        cycles_per_year=9,
+        hirsutism=True,
+        acne=False,
+        hair_thinning=False,
+        known_pc_ovaries=False,
+        amh_high=True,     # if unknown, set False
+        weight_kg=62,
+        height_m=1.54
+    )
+    print("=== PCOS Screening Helper (Demo) ===")
+    for k, v in result.items():
+        print(f"{k}: {v}")
+
+if __name__ == "__main__":
+    demo()
