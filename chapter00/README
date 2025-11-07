@@ -1,0 +1,103 @@
+<div align="center">
+
+# 💗 Voices of PCOS  
+### *Listening to the Women Behind the Data*
+
+📊 *A Patient-Centered Data Science Notebook by Baasrah Bee*  
+🩺 *Exploring real PCOS stories, emotions, and patterns through empathy-driven analytics.*
+
+---
+
+</div>
+
+---
+
+## 🌸 If Data Could Speak
+
+> “The day I was told I had PCOS, the world didn’t stop — but my sense of control did.  
+> I began tracking everything: my cycles, temperatures, OPK, symptoms, food.  
+> Each data point felt like a small prayer — to understand my body and find patterns that I would make sense to me.”
+
+I started this project not just as an aspiring data scientist,  
+but as someone living *inside* the data.
+
+PCOS is unpredictable — cycles stretch and shrink, hormones swing, emotions follow.  
+But beneath that chaos, there are stories shared by thousands of women like me:  
+on Tiktok, Instagram, Reddit threads, late-night blogs, and whispered chats between appointments.
+
+I wanted to listen, be inspired and find hope
+To use Natural Language Processing not as a cold algorithm,  
+but as a tool for empathy — a way to let data **echo the voices** of those who's struggle is unseen.
+
+Each sentence in this project belongs to a woman who asked,  
+“Is anyone else feeling this too?”  
+And each insight is a reminder that we are not alone in our search for balance,  
+for understanding, and — for many of us — for hope to hold new life someday.
+
+> *This notebook begins my journey to merge clinical care, coding, and compassion.  
+> It’s more than a project — it’s part of healing.*
+
+---
+
+## 🩺 Overview
+
+This notebook explores **real-world online conversations** from women living with Polycystic Ovary Syndrome (PCOS).  
+Using **Natural Language Processing (NLP)**, it identifies recurring **themes, emotions, and challenges** discussed in public PCOS communities.
+
+### 🎯 Objective
+To amplify patient voices by transforming unstructured text data into structured, meaningful insights that can:
+- Help clinicians understand patient concerns better  
+- Guide researchers toward real unmet needs  
+- Offer validation, support and hope to women with PCOS  
+
+---
+
+## 💡 Motivation
+
+> “As a healthcare worker, I often see how data can reveal what words cannot.  
+> I wanted to use data science not just to study PCOS, but to *listen* to the women experiencing it.”
+
+Many PCOS patients describe feelings of:
+- Frustration with unclear diagnosis  
+- Confusion about treatment options  
+- Emotional exhaustion from chronic symptoms  
+- Hope and motivation shared within peer communities  
+
+This project transforms those online stories into *data-driven empathy.*
+
+---
+
+## 🧠 Research Questions
+
+1. What are the **most common problems** discussed by PCOS patients online?  
+2. What **emotional tones** appear most frequently — frustration, hope, motivation, confusion?  
+3. What recurring **themes** or **support needs** emerge (e.g., fertility, acne, mental health, doctor trust)?  
+4. How can these insights guide **future patient-centered data tools**?
+
+---
+
+## ⚙️ Methodology
+
+| Step | Description | Tools Used |
+|:--|:--|:--|
+| **1. Data Collection** | Gathered posts from public PCOS forums (e.g., Reddit) | `PRAW`, `requests`, `BeautifulSoup` |
+| **2. Cleaning & Preprocessing** | Removed links, symbols, stopwords, and lemmatized text | `pandas`, `nltk`, `spacy` |
+| **3. Sentiment Analysis** | Classified emotional tone of each post | `VADER`, `TextBlob` |
+| **4. Topic Modeling** | Discovered clusters of common discussion themes | `scikit-learn`, `LDA` |
+| **5. Visualization** | Created charts & word clouds to show trends | `matplotlib`, `seaborn`, `wordcloud` |
+
+---
+
+## 📊 Example Insights
+
+| Theme | Common Words | Emotional Tone | Example Quote |
+|:--|:--|:--|:--|
+| 🩸 Irregular Periods | "cycle", "missed", "spotting" | Confused | "My period hasn't come in two months and I’m scared it’s normal." |
+| ⚖️ Weight & Body | "metformin", "diet", "acne" | Frustrated | "I’ve tried everything but the weight won’t budge." |
+| 💊 Medical Journey | "doctor", "diagnosis", "dismissed" | Angry | "I was told to just lose weight again." |
+| 🤍 Support & Progress | "community", "hope", "progress" | Encouraged | "Finally ovulated this month — small victories count." |
+
+---
+
+## 📁 Folder Structure
+
